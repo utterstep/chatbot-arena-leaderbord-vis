@@ -1,5 +1,7 @@
 """A gradio app that renders a static leaderboard. This is used for Hugging Face Space."""
 import pickle
+
+import plotly
 import gradio as gr
 
 
