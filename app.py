@@ -1,6 +1,5 @@
 """A gradio app that renders a static leaderboard. This is used for Hugging Face Space."""
 import pickle
-
 import gradio as gr
 
 
@@ -77,4 +76,4 @@ def build_demo(elo_results_file):
 
 
 demo = build_demo("elo_results_20230508.pkl")
-demo.launch()
+demo.launch(share=True)
