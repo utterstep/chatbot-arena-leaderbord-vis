@@ -5,7 +5,7 @@ import pickle
 import gradio as gr
 
 
-notebook_url = "https://colab.research.google.com/drive/1iI_IszGAwSMkdfUrIDI6NfTG7tGDDRxZ?usp=sharing"
+notebook_url = "https://colab.research.google.com/drive/17L9uCiAivzWfzOxo2Tb9RMauT7vS6nVU?usp=sharing"
 
 
 def make_leaderboard_md(elo_results):
@@ -82,5 +82,5 @@ if __name__ == "__main__":
     parser.add_argument("--share", action="store_true")
     args = parser.parse_args()
 
-    demo = build_demo("elo_results_20230508.pkl")
+    demo = build_demo("elo_results_20230522.pkl")
     demo.launch(share=args.share)
