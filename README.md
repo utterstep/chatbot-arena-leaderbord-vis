@@ -1,8 +1,8 @@
 ---
 title: Chatbot Arena Leaderboard
 emoji: 🏆
-colorFrom: yellow
-colorTo: pink
+colorFrom: gray
+colorTo: gray
 sdk: gradio
 sdk_version: 3.35.2
 app_file: app.py
