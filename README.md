@@ -1,7 +1,7 @@
 ---
 title: Chatbot Arena Leaderboard
 emoji: 🏆🤖
-colorFrom: purple
+colorFrom: indigo
 colorTo: yellow
 sdk: gradio
 sdk_version: 3.35.2
