@@ -1,6 +1,6 @@
 ---
 title: Chatbot Arena Leaderboard
-emoji: 🏆⚔️🏆
+emoji: 🥇
 colorFrom: purple
 colorTo: blue
 sdk: gradio
