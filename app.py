@@ -253,5 +253,5 @@ if __name__ == "__main__":
     parser.add_argument("--share", action="store_true")
     args = parser.parse_args()
 
-    demo = build_demo("elo_results_20230719.pkl", "leaderboard_table_20230719.csv")
+    demo = build_demo("elo_results_20230717.pkl", "leaderboard_table_20230717.csv")
     demo.launch(share=args.share)
