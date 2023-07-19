@@ -6,7 +6,9 @@ Claude-v1,7.90,1169,0.756,Proprietary,https://www.anthropic.com/index/introducin
 Claude-instant-v1,7.85,1145,0.613,Proprietary,https://www.anthropic.com/index/introducing-claude
 Vicuna-33B,7.12,1096,0.592,Non-commercial,https://huggingface.co/lmsys/vicuna-33b-v1.3
 WizardLM-30B,7.01,-,0.587,Non-commercial,https://huggingface.co/WizardLM/WizardLM-30B-V1.0
+Llama-2-70b-chat,6.86,-,-,Llama 2 Community,https://huggingface.co/meta-llama/Llama-2-70b-hf
 WizardLM-13B-v1.1,6.76,-,-,Non-commercial,https://huggingface.co/WizardLM/WizardLM-13B-V1.1
+Llama-2-13b-chat,6.65,-,-,Llama 2 Community,https://huggingface.co/meta-llama/Llama-2-13b-hf
 Guanaco-33B,6.53,1044,0.576,Non-commercial,https://huggingface.co/timdettmers/guanaco-33b-merged
 Tulu-30B,6.43,-,0.581,Non-commercial,https://huggingface.co/allenai/tulu-30b
 Guanaco-65B,6.41,-,0.621,Non-commercial,https://huggingface.co/timdettmers/guanaco-65b-merged
@@ -15,6 +17,7 @@ PaLM-Chat-Bison-001,6.40,1019,-,Proprietary,https://cloud.google.com/vertex-ai/d
 Vicuna-13B,6.39,1055,0.521,Non-commercial,https://huggingface.co/lmsys/vicuna-13b-v1.3
 MPT-30B-chat,6.39,1049,0.504,CC-BY-NC-SA-4.0,https://huggingface.co/mosaicml/mpt-30b-chat
 WizardLM-13B,6.35,1043,0.523,Non-commercial,https://huggingface.co/WizardLM/WizardLM-13B-V1.0
+Llama-2-7b-chat,6.27,-,-,Llama 2 Community,https://huggingface.co/meta-llama/Llama-2-7b-chat-hf
 Vicuna-7B,6.00,1006,0.471,Non-commercial,https://huggingface.co/lmsys/vicuna-7b-v1.3
 Baize-v2-13B,5.75,-,0.489,Non-commercial,https://huggingface.co/project-baize/baize-v2-13b
 XGen-7B-8K-Inst,5.55,-,-,Non-commercial,https://huggingface.co/Salesforce/xgen-7b-8k-inst
