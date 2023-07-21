@@ -1,9 +1,9 @@
 Model,MT-bench (score),Arena Elo rating,MMLU,License,Link
 GPT-4,8.99,1211,0.864,Proprietary,https://openai.com/research/gpt-4
-Claude-2,8.06,-,-,Proprietary,https://www.anthropic.com/index/claude-2
+Claude-2,8.06,-,0.785,Proprietary,https://www.anthropic.com/index/claude-2
 GPT-3.5-turbo,7.94,1124,0.700,Proprietary,https://openai.com/blog/chatgpt
-Claude-v1,7.90,1169,0.756,Proprietary,https://www.anthropic.com/index/introducing-claude
-Claude-instant-v1,7.85,1145,0.613,Proprietary,https://www.anthropic.com/index/introducing-claude
+Claude-v1,7.90,1169,0.770,Proprietary,https://www.anthropic.com/index/introducing-claude
+Claude-instant-v1,7.85,1145,0.734,Proprietary,https://www.anthropic.com/index/introducing-claude
 Vicuna-33B,7.12,1096,0.592,Non-commercial,https://huggingface.co/lmsys/vicuna-33b-v1.3
 WizardLM-30B,7.01,-,0.587,Non-commercial,https://huggingface.co/WizardLM/WizardLM-30B-V1.0
 Llama-2-70b-chat,6.86,-,-,Llama 2 Community,https://huggingface.co/meta-llama/Llama-2-70b-hf
