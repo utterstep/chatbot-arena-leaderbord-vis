@@ -151,6 +151,7 @@ def build_basic_stats_tab():
     return [md0, plot_1, md1, md2, md3, md4]
 
 
+
 def build_leaderboard_tab(elo_results_file, leaderboard_table_file):
     if elo_results_file is None:  # Do live update
         md = "Loading ..."
@@ -233,6 +234,28 @@ Please note that you may see different orders from different ranking methods. Th
             plot_4 = gr.Plot(p4, show_label=False)
     return [md_1, plot_1, plot_2, plot_3, plot_4]
 
+block_css = """
+#notice_markdown {
+    font-size: 104%
+}
+#notice_markdown th {
+    display: none;
+}
+#notice_markdown td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#leaderboard_markdown {
+    font-size: 104%
+}
+#leaderboard_markdown td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#leaderboard_dataframe td {
+    line-height: 0.1em;
+}
+"""
 
 def build_demo(elo_results_file, leaderboard_table_file):
     text_size = gr.themes.sizes.text_lg
@@ -240,6 +263,7 @@ def build_demo(elo_results_file, leaderboard_table_file):
     with gr.Blocks(
         title="Chatbot Arena Leaderboard",
         theme=gr.themes.Base(text_size=text_size),
+        css=block_css,
     ) as demo:
         leader_components = build_leaderboard_tab(
             elo_results_file, leaderboard_table_file
