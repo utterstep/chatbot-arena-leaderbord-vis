@@ -5,8 +5,8 @@ Claude-2,8.06,1134,0.785,Proprietary,https://www.anthropic.com/index/claude-2
 GPT-3.5-turbo,7.94,1118,0.700,Proprietary,https://openai.com/blog/chatgpt
 Claude-1,7.90,1161,0.770,Proprietary,https://www.anthropic.com/index/introducing-claude
 Claude-instant-1,7.85,1130,0.734,Proprietary,https://www.anthropic.com/index/introducing-claude
-WizardLM-70b-v1.0,7.71,-,-,Llama 2 Community,https://huggingface.co/WizardLM/WizardLM-70B-V1.0
-WizardLM-13b-v1.2,7.20,1046,-,Llama 2 Community,https://huggingface.co/WizardLM/WizardLM-13B-V1.2
+WizardLM-70b-v1.0,7.71,-,0.637,Llama 2 Community,https://huggingface.co/WizardLM/WizardLM-70B-V1.0
+WizardLM-13b-v1.2,7.20,1046,0.527,Llama 2 Community,https://huggingface.co/WizardLM/WizardLM-13B-V1.2
 Vicuna-33B,7.12,1097,0.592,Non-commercial,https://huggingface.co/lmsys/vicuna-33b-v1.3
 WizardLM-30B,7.01,-,0.587,Non-commercial,https://huggingface.co/WizardLM/WizardLM-30B-V1.0
 Vicuna-13B-16k,6.92,-,0.545,Llama 2 Community,https://huggingface.co/lmsys/vicuna-13b-v1.5-16k
