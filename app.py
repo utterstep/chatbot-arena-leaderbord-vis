@@ -1,6 +1,7 @@
 """A gradio app that renders a static leaderboard. This is used for Hugging Face Space."""
 import ast
 import argparse
+import glob
 import pickle
 
 import gradio as gr
@@ -277,5 +278,13 @@ if __name__ == "__main__":
     parser.add_argument("--share", action="store_true")
     args = parser.parse_args()
 
-    demo = build_demo("elo_results_20230905.pkl", "leaderboard_table_20230905.csv")
+    elo_result_files = glob.glob("elo_results_*.pkl")
+    elo_result_files.sort(key=lambda x: int(x[12:-4]))
+    elo_result_file = elo_result_files[-1]
+
+    leaderboard_table_files = glob.glob("leaderboard_table_*.csv")
+    leaderboard_table_files.sort(key=lambda x: int(x[18:-4]))
+    leaderboard_table_file = leaderboard_table_files[-1]
+
+    demo = build_demo(elo_result_file, leaderboard_table_file)
     demo.launch(share=args.share)
