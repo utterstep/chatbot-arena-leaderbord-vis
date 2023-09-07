@@ -256,6 +256,9 @@ block_css = """
 #leaderboard_dataframe td {
     line-height: 0.1em;
 }
+footer {
+    display:none !important
+}
 .image-container {
     display: flex;
     align-items: center;
