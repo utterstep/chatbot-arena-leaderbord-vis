@@ -300,6 +300,13 @@ def build_demo(elo_results_file, leaderboard_table_file):
         leader_components = build_leaderboard_tab(
             elo_results_file, leaderboard_table_file
         )
+        demo.load(_js="""
+            () => {
+                document.body.classList.toggle('dark');
+                document.body.classList.toggle('light');
+                document.querySelector('gradio-app').style.backgroundColor = 'var(--color-background-primary)';
+            }
+        """)
 
     return demo
 
