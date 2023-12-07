@@ -22,22 +22,22 @@ Calude-2.1,8.18,1118,-,Proprietary,https://www.anthropic.com/index/claude-2-1
 GPT-3.5-turbo-0613,8.39,1112,-,Proprietary,https://platform.openai.com/docs/models/gpt-3-5
 Claude-instant-1,7.85,1109,0.734,Proprietary,https://www.anthropic.com/index/introducing-claude
 GPT-3.5-turbo-0314,7.94,1105,0.700,Proprietary,https://platform.openai.com/docs/models/gpt-3-5
-Tulu-2-dpo-70b,7.89,1105,-,AI2 ImpACT Low-risk,https://huggingface.co/allenai/tulu-2-dpo-70b
-Yi-34b-chat,-,1102,0.735,Yi License,https://huggingface.co/01-ai/Yi-34B-Chat
+Tulu-2-DPO-70B,7.89,1105,-,AI2 ImpACT Low-risk,https://huggingface.co/allenai/tulu-2-dpo-70b
+Yi-34B-chat,-,1102,0.735,Yi License,https://huggingface.co/01-ai/Yi-34B-Chat
 WizardLM-70b-v1.0,7.71,1097,0.637,Llama 2 Community,https://huggingface.co/WizardLM/WizardLM-70B-V1.0
 Vicuna-33B,7.12,1093,0.592,Non-commercial,https://huggingface.co/lmsys/vicuna-33b-v1.3
-starling-lm-7b-alpha,8.09,1083,0.639,CC-BY-NC-4.0,https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha
+Starling-lm-7b-alpha,8.09,1083,0.639,CC-BY-NC-4.0,https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha
 pplx-70b-online,-,1080,-,Proprietary,https://blog.perplexity.ai/blog/introducing-pplx-online-llms
 OpenChat-3.5,7.81,1077,0.643,Apache-2.0,https://huggingface.co/openchat/openchat_3.5
-openhermes-2.5-mistral-7b,-,1075,-,Apache-2.0,https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B
+OpenHermes-2.5-Mistral-7b,-,1075,-,Apache-2.0,https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B
 GPT-3.5-Turbo-1106,8.32,1074,-,Proprietary,https://platform.openai.com/docs/models/gpt-3-5
 Llama-2-70b-chat,6.86,1069,0.630,Llama 2 Community,https://huggingface.co/meta-llama/Llama-2-70b-chat-hf
 WizardLM-13b-v1.2,7.20,1053,0.527,Llama 2 Community,https://huggingface.co/WizardLM/WizardLM-13B-V1.2
-zephyr-7b-beta,7.34,1045,0.614,MIT,https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+Zephyr-7b-beta,7.34,1045,0.614,MIT,https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
 MPT-30B-chat,6.39,1039,0.504,CC-BY-NC-SA-4.0,https://huggingface.co/mosaicml/mpt-30b-chat
 Vicuna-13B,6.57,1039,0.558,Llama 2 Community,https://huggingface.co/lmsys/vicuna-13b-v1.5
 QWen-Chat-14B,6.96,1039,0.665,Qianwen LICENSE,https://huggingface.co/Qwen/Qwen-14B-Chat
-zephyr-7b-alpha,6.88,1034,-,MIT,https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha
+Zephyr-7b-alpha,6.88,1034,-,MIT,https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha
 CodeLlama-34B-instruct,-,1032,0.537,Llama 2 Community,https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf
 falcon-180b-chat,-,1031,0.680,Falcon-180B TII License,https://huggingface.co/tiiuae/falcon-180B-chat
 Guanaco-33B,6.53,1029,0.576,Non-commercial,https://huggingface.co/timdettmers/guanaco-33b-merged
