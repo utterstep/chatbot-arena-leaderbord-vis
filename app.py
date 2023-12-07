@@ -8,7 +8,8 @@ import gradio as gr
 import numpy as np
 
 
-notebook_url = "https://colab.research.google.com/drive/1RAWb22-PFNI-X1gPVzc927SGUdfr6nsR?usp=sharing"
+# notebook_url = "https://colab.research.google.com/drive/1RAWb22-PFNI-X1gPVzc927SGUdfr6nsR?usp=sharing"
+notebook_url = "https://colab.research.google.com/drive/1KdwokPjirkTmpO_P1WByFNFiqxWQquwH#scrollTo=o_CpbkGEbhrK"
 
 
 basic_component_values = [None] * 6
@@ -21,7 +22,7 @@ def make_leaderboard_md(elo_results):
 | [Vote](https://chat.lmsys.org/?arena) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://github.com/lm-sys/FastChat/blob/main/docs/dataset_release.md) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |
 
 🏆 This leaderboard is based on the following three benchmarks.
-- [Chatbot Arena](https://chat.lmsys.org/?arena) - a crowdsourced, randomized battle platform. We use 100K+ user votes to compute Elo ratings.
+- [Chatbot Arena](https://chat.lmsys.org/?arena) - a crowdsourced, randomized battle platform. We use 130K+ user votes to compute Elo ratings.
 - [MT-Bench](https://arxiv.org/abs/2306.05685) - a set of challenging multi-turn questions. We use GPT-4 to grade the model responses.
 - [MMLU](https://arxiv.org/abs/2009.03300) (5-shot) - a test to measure a model's multitask accuracy on 57 tasks.
 
@@ -227,7 +228,7 @@ Please note that you may see different orders from different ranking methods. Th
     with gr.Row():
         with gr.Column():
             gr.Markdown(
-                "#### Figure 3: Bootstrap of Elo Estimates (1000 Rounds of Random Sampling)"
+                "#### Figure 3: Bootstrap of MLE Elo Estimates (1000 Rounds of Random Sampling)"
             )
             plot_3 = gr.Plot(p3, show_label=False)
         with gr.Column():
