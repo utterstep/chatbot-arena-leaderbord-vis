@@ -22,8 +22,8 @@ Calude-2.1,8.18,1118,-,Proprietary,https://www.anthropic.com/index/claude-2-1
 GPT-3.5-turbo-0613,8.39,1112,-,Proprietary,https://platform.openai.com/docs/models/gpt-3-5
 Claude-instant-1,7.85,1109,0.734,Proprietary,https://www.anthropic.com/index/introducing-claude
 GPT-3.5-turbo-0314,7.94,1105,0.700,Proprietary,https://platform.openai.com/docs/models/gpt-3-5
-tulu-2-dpo-70b,7.89,1105,-,AI2 ImpACT Low-risk,https://huggingface.co/allenai/tulu-2-dpo-70b
-yi-34b-chat,-,1102,-,Yi License,https://huggingface.co/01-ai/Yi-34B-Chat
+Tulu-2-dpo-70b,7.89,1105,-,AI2 ImpACT Low-risk,https://huggingface.co/allenai/tulu-2-dpo-70b
+Yi-34b-chat,-,1102,0.735,Yi License,https://huggingface.co/01-ai/Yi-34B-Chat
 WizardLM-70b-v1.0,7.71,1097,0.637,Llama 2 Community,https://huggingface.co/WizardLM/WizardLM-70B-V1.0
 Vicuna-33B,7.12,1093,0.592,Non-commercial,https://huggingface.co/lmsys/vicuna-33b-v1.3
 starling-lm-7b-alpha,8.09,1083,0.639,CC-BY-NC-4.0,https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha
