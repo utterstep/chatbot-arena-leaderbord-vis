@@ -18,7 +18,7 @@ GPT-4-0314,8.96,1201,0.864,Proprietary,https://openai.com/research/gpt-4
 Claude-1,7.90,1153,0.770,Proprietary,https://www.anthropic.com/index/introducing-claude
 GPT-4-0613,9.18,1152,-,Proprietary,https://platform.openai.com/docs/models/gpt-4-and-gpt-4-turbo
 Claude-2.0,8.06,1127,0.785,Proprietary,https://www.anthropic.com/index/claude-2
-Calude-2.1,8.18,1118,-,Proprietary,https://www.anthropic.com/index/claude-2-1
+Claude-2.1,8.18,1118,-,Proprietary,https://www.anthropic.com/index/claude-2-1
 GPT-3.5-turbo-0613,8.39,1112,-,Proprietary,https://platform.openai.com/docs/models/gpt-3-5
 Claude-instant-1,7.85,1109,0.734,Proprietary,https://www.anthropic.com/index/introducing-claude
 GPT-3.5-turbo-0314,7.94,1105,0.700,Proprietary,https://platform.openai.com/docs/models/gpt-3-5
