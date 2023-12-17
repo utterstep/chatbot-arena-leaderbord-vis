@@ -1,5 +1,5 @@
 ---
-title: Chatbot Arena Leaderboard
+title: LMSys Chatbot Arena Leaderboard
 emoji: 🏆🤖
 colorFrom: indigo
 colorTo: green
