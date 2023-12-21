@@ -105,7 +105,7 @@ def load_leaderboard_table_csv(filename, add_hyperlink=True):
         for j in range(len(heads)):
             item = {}
             for h, v in zip(heads, row):
-                if h == "Arena Elo":
+                if h == "Arena Elo rating":
                     if v != "-":
                         v = int(ast.literal_eval(v))
                     else:
@@ -174,7 +174,7 @@ def build_leaderboard_tab(elo_results_file, leaderboard_table_file):
         data = load_leaderboard_table_csv(leaderboard_table_file)
         headers = [
             "Model",
-            "Arena Elo rating",
+            "Arena Elo",
             "MT-bench (score)",
             "MMLU",
             "License",
