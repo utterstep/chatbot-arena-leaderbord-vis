@@ -174,7 +174,7 @@ def build_leaderboard_tab(elo_results_file, leaderboard_table_file):
         data = load_leaderboard_table_csv(leaderboard_table_file)
         headers = [
             "Model",
-            "Arena Elo",
+            "Arena Elo rating",
             "MT-bench (score)",
             "MMLU",
             "License",
