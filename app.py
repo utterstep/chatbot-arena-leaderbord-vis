@@ -45,7 +45,8 @@ Contribute your vote 🗳️ at [chat.lmsys.org](https://chat.lmsys.org)! Find m
 
 def make_full_leaderboard_md(elo_results):
     leaderboard_md = f"""
-Two more benchmarks are displayed: **MT-Bench** and **MMLU**.
+Three benchmarks are displayed: **Arena Elo**, **MT-Bench** and **MMLU**.
+- [Chatbot Arena](https://chat.lmsys.org/?arena) - a crowdsourced, randomized battle platform. We use 200K+ user votes to compute Elo ratings.
 - [MT-Bench](https://arxiv.org/abs/2306.05685): a set of challenging multi-turn questions. We use GPT-4 to grade the model responses.
 - [MMLU](https://arxiv.org/abs/2009.03300) (5-shot): a test to measure a model's multitask accuracy on 57 tasks.
 
