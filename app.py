@@ -187,7 +187,7 @@ def get_full_table(arena_df, model_table_df):
         row.append(model_name)
         if model_key in arena_df.index:
             idx = arena_df.index.get_loc(model_key)
-            row.append(round(arena_df.iloc[idx]["rating"], 1))
+            row.append(round(arena_df.iloc[idx]["rating"]))
         else:
             row.append(np.nan)
         row.append(model_table_df.iloc[i]["MT-bench (score)"])
@@ -218,12 +218,12 @@ def get_arena_table(arena_df, model_table_df):
         # model display name
         row.append(model_name)
         # elo rating
-        row.append(round(arena_df.iloc[i]["rating"], 1))
+        row.append(round(arena_df.iloc[i]["rating"]))
         upper_diff = round(
-            arena_df.iloc[i]["rating_q975"] - arena_df.iloc[i]["rating"], 1
+            arena_df.iloc[i]["rating_q975"] - arena_df.iloc[i]["rating"]
         )
         lower_diff = round(
-            arena_df.iloc[i]["rating"] - arena_df.iloc[i]["rating_q025"], 1
+            arena_df.iloc[i]["rating"] - arena_df.iloc[i]["rating_q025"]
         )
         row.append(f"+{upper_diff}/-{lower_diff}")
         # num battles
