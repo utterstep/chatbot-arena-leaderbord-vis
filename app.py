@@ -354,8 +354,6 @@ You can find more discussions in this blog [post](https://lmsys.org/blog/2023-12
                 )
                 plot_4 = gr.Plot(p4, show_label=False)
 
-    from fastchat.serve.gradio_web_server import acknowledgment_md
-
     gr.Markdown(acknowledgment_md)
 
     if show_plot:
