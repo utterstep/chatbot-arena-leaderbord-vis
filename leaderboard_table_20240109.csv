@@ -66,4 +66,4 @@ stablelm-tuned-alpha-7b,StableLM-Tuned-Alpha-7B,2.75,0.244,CC-BY-NC-SA-4.0,Stabi
 dolly-v2-12b,Dolly-V2-12B,3.28,0.257,MIT,Databricks,https://huggingface.co/databricks/dolly-v2-12b
 llama-13b,LLaMA-13B,2.61,0.470,Non-commercial,Meta,https://arxiv.org/abs/2302.13971
 mistral-medium,Mistral Medium,8.61,0.753,Proprietary,Mistral,https://mistral.ai/news/la-plateforme/
-llama2-70b-steerlm-chat,Llama2-70B-SteerLM-Chat,7.54,-,Llama 2 Community,Nvidia,https://huggingface.co/nvidia/Llama2-70B-SteerLM-Chat
+llama2-70b-steerlm-chat,NV-Llama2-70B-SteerLM-Chat,7.54,0.685,Llama 2 Community,Nvidia,https://huggingface.co/nvidia/Llama2-70B-SteerLM-Chat
