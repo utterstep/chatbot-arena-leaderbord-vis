@@ -238,6 +238,11 @@ def get_arena_table(arena_df, model_table_df):
             model_table_df[model_table_df["key"] == model_key]["License"].values[0]
         )
 
+        cutoff_date = model_table_df[model_table_df["key"] == model_key]["Knowledge cutoff date"].values[0]
+        if cutoff_date == "-":
+            row.append("Unknown")
+        else:
+            row.append(cutoff_date)
         values.append(row)
     return values
 
@@ -276,6 +281,7 @@ def build_leaderboard_tab(elo_results_file, leaderboard_table_file, show_plot=Fa
                         "🗳️ Votes",
                         "Organization",
                         "License",
+                        "Knowledge Cutoff",
                     ],
                     datatype=[
                         "str",
@@ -285,11 +291,12 @@ def build_leaderboard_tab(elo_results_file, leaderboard_table_file, show_plot=Fa
                         "number",
                         "str",
                         "str",
+                        "str",
                     ],
                     value=arena_table_vals,
                     elem_id="arena_leaderboard_dataframe",
                     height=700,
-                    column_widths=[50, 200, 100, 100, 100, 150, 150],
+                    column_widths=[50, 200, 100, 100, 100, 150, 150, 100],
                     wrap=True,
                 )
             with gr.Tab("Full Leaderboard", id=1):
