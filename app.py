@@ -296,7 +296,7 @@ def build_leaderboard_tab(elo_results_file, leaderboard_table_file, show_plot=Fa
                     value=arena_table_vals,
                     elem_id="arena_leaderboard_dataframe",
                     height=700,
-                    column_widths=[50, 200, 100, 100, 100, 150, 150, 100],
+                    column_widths=[50, 200, 120, 100, 100, 150, 150, 100],
                     wrap=True,
                 )
             with gr.Tab("Full Leaderboard", id=1):
