@@ -36,7 +36,7 @@ def make_arena_leaderboard_md(arena_df):
     total_models = len(arena_df)
 
     leaderboard_md = f"""
-Total #models: **{total_models}**. Total #votes: **{total_votes}**. Last updated: March 5, 2024.
+Total #models: **{total_models}**. Total #votes: **{total_votes}**. Last updated: March 7, 2024.
 
 Contribute your vote 🗳️ at [chat.lmsys.org](https://chat.lmsys.org)! Find more analysis in the [notebook]({notebook_url}).
 """
@@ -210,6 +210,7 @@ def get_arena_table(arena_df, model_table_df):
     for i in range(len(arena_df)):
         row = []
         model_key = arena_df.index[i]
+        print(model_key)
         model_name = model_table_df[model_table_df["key"] == model_key]["Model"].values[
             0
         ]
