@@ -355,7 +355,7 @@ You can find more discussions in this blog [post](https://lmsys.org/blog/2023-12
         with gr.Row():
             with gr.Column():
                 gr.Markdown(
-                    "#### Figure 3: Bootstrap of Elo Estimates (1000 Rounds of Random Sampling)"
+                    "#### Figure 3: Confidence Intervals on Model Strength (via Bootstrapping)"
                 )
                 plot_3 = gr.Plot(p3, show_label=False)
             with gr.Column():
