@@ -331,6 +331,13 @@ def build_leaderboard_tab(elo_results_file, leaderboard_table_file, show_plot=Fa
     else:
         pass
 
+    gr.Markdown(
+        f"""Note: we take the 95% confidence interval into account when determining a model's ranking.
+A model is ranked higher only if its lower bound of model score is higher than the upper bound of the other model's score.
+""",
+        elem_id="leaderboard_markdown"
+    )
+
     leader_component_values[:] = [default_md, p1, p2, p3, p4]
 
     if show_plot:
