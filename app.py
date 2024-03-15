@@ -334,6 +334,7 @@ def build_leaderboard_tab(elo_results_file, leaderboard_table_file, show_plot=Fa
     gr.Markdown(
         f"""Note: we take the 95% confidence interval into account when determining a model's ranking.
 A model is ranked higher only if its lower bound of model score is higher than the upper bound of the other model's score.
+See Figure 3 below for visualization of the confidence intervals.
 """,
         elem_id="leaderboard_markdown"
     )
