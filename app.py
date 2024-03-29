@@ -255,6 +255,8 @@ def build_leaderboard_tab(elo_results_file, leaderboard_table_file, show_plot=Fa
     else:
         with open(elo_results_file, "rb") as fin:
             elo_results = pickle.load(fin)
+            if "full" in elo_results:
+                elo_results = elo_results["full"]
 
         p1 = elo_results["win_fraction_heatmap"]
         p2 = elo_results["battle_count_heatmap"]
