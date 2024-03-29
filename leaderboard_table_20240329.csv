@@ -88,4 +88,4 @@ codellama-70b-instruct,CodeLlama-70B-instruct,-,-,2024/1,Llama 2 Community,Meta,
 olmo-7b-instruct,OLMo-7B-instruct,-,-,2024/2,Apache-2.0,Allen AI,https://huggingface.co/allenai/OLMo-7B-Instruct
 claude-3-haiku-20240307,Claude 3 Haiku,-,0.752,2023/8,Proprietary,Anthropic,https://www.anthropic.com/news/claude-3-family
 starling-lm-7b-beta,Starling-LM-7B-beta,8.12,-,2024/3,Apache-2.0,Nexusflow,https://huggingface.co/Nexusflow/Starling-LM-7B-beta
-command-r,Command R,-,-,2024/3,CC-BY-NC-4.0,Cohere AI,https://txt.cohere.com/command-r
+command-r,Command R,-,-,2024/3,CC-BY-NC-4.0,Cohere,https://txt.cohere.com/command-r
