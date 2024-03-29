@@ -26,7 +26,7 @@ def make_default_md(arena_df, elo_results):
 | [Vote](https://chat.lmsys.org) | [Blog](https://lmsys.org/blog/2023-05-03-arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2306.05685) | [Dataset](https://github.com/lm-sys/FastChat/blob/main/docs/dataset_release.md) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/HSWAKCrnFx) |
 
 LMSYS [Chatbot Arena](https://lmsys.org/blog/2023-05-03-arena/) is a crowdsourced open platform for LLM evals.
-We've collected over **400,000** human preference votes to rank LLMs with the Elo ranking system.
+We've collected over **500,000** human preference votes to rank LLMs with the Elo ranking system.
 """
     return leaderboard_md
 
@@ -36,7 +36,7 @@ def make_arena_leaderboard_md(arena_df):
     total_models = len(arena_df)
 
     leaderboard_md = f"""
-Total #models: **{total_models}**. Total #votes: **{total_votes}**. Last updated: March 26, 2024.
+Total #models: **{total_models}**. Total #votes: **{total_votes}**. Last updated: March 29, 2024.
 
 Contribute your vote 🗳️ at [chat.lmsys.org](https://chat.lmsys.org)! Find more analysis in the [notebook]({notebook_url}).
 """
@@ -46,7 +46,7 @@ Contribute your vote 🗳️ at [chat.lmsys.org](https://chat.lmsys.org)! Find m
 def make_full_leaderboard_md(elo_results):
     leaderboard_md = f"""
 Three benchmarks are displayed: **Arena Elo**, **MT-Bench** and **MMLU**.
-- [Chatbot Arena](https://chat.lmsys.org/?arena) - a crowdsourced, randomized battle platform. We use 200K+ user votes to compute Elo ratings.
+- [Chatbot Arena](https://chat.lmsys.org/?arena) - a crowdsourced, randomized battle platform. We use 500K+ user votes to compute Elo ratings.
 - [MT-Bench](https://arxiv.org/abs/2306.05685): a set of challenging multi-turn questions. We use GPT-4 to grade the model responses.
 - [MMLU](https://arxiv.org/abs/2009.03300) (5-shot): a test to measure a model's multitask accuracy on 57 tasks.
 
@@ -210,7 +210,6 @@ def get_arena_table(arena_df, model_table_df):
     for i in range(len(arena_df)):
         row = []
         model_key = arena_df.index[i]
-        print(model_key)
         model_name = model_table_df[model_table_df["key"] == model_key]["Model"].values[
             0
         ]
