@@ -373,7 +373,25 @@ You can find more discussions in this blog [post](https://lmsys.org/blog/2023-12
                 )
                 plot_4 = gr.Plot(p4, show_label=False)
 
-    gr.Markdown(acknowledgment_md)
+    with gr.Accordion(
+        "📝 Citation",
+        open=True,
+    ):
+        citation_md = """
+        ### Citation
+        Please cite the following paper if you find our leaderboard or dataset helpful.
+        ```
+        @misc{chiang2024chatbot,
+            title={Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference},
+            author={Wei-Lin Chiang and Lianmin Zheng and Ying Sheng and Anastasios Nikolas Angelopoulos and Tianle Li and Dacheng Li and Hao Zhang and Banghua Zhu and Michael Jordan and Joseph E. Gonzalez and Ion Stoica},
+            year={2024},
+            eprint={2403.04132},
+            archivePrefix={arXiv},
+            primaryClass={cs.AI}
+        }
+        """
+        gr.Markdown(citation_md, elem_id="leaderboard_markdown")
+        gr.Markdown(acknowledgment_md)
 
     if show_plot:
         return [md_1, plot_1, plot_2, plot_3, plot_4]
