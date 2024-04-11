@@ -89,3 +89,9 @@ olmo-7b-instruct,OLMo-7B-instruct,-,-,2024/2,Apache-2.0,Allen AI,https://hugging
 claude-3-haiku-20240307,Claude 3 Haiku,-,0.752,2023/8,Proprietary,Anthropic,https://www.anthropic.com/news/claude-3-family
 starling-lm-7b-beta,Starling-LM-7B-beta,8.12,-,2024/3,Apache-2.0,Nexusflow,https://huggingface.co/Nexusflow/Starling-LM-7B-beta
 command-r,Command R,-,-,2024/3,CC-BY-NC-4.0,Cohere,https://txt.cohere.com/command-r
+qwen1.5-14b-chat,Qwen1.5-14B-Chat,7.91,0.676,2024/2,Qianwen LICENSE,Alibaba,https://qwenlm.github.io/blog/qwen1.5/
+qwen1.5-32b-chat,Qwen1.5-32B-Chat,8.30,0.734,2024/2,Qianwen LICENSE,Alibaba,https://qwenlm.github.io/blog/qwen1.5-32b/
+command-r-plus,Command R+,-,-,2024/3,CC-BY-NC-4.0,Cohere,https://txt.cohere.com/command-r-plus-microsoft-azure/
+gemma-1.1-7b-it,Gemma-1.1-7B-it,-,0.643,2024/2,Gemma license,Google,https://huggingface.co/google/gemma-1.1-7b-it
+dbrx-instruct-preview,DBRX-Instruct-Preview,-,0.737,2023/12,DBRX LICENSE,Databricks,https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm
+gpt-4-turbo-2024-04-09,GPT-4-Turbo-2024-04-09,-,-,2023/12,Proprietary,OpenAI,https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
