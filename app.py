@@ -322,6 +322,7 @@ key_to_category_name = {
     "french": "French",
     "no_tie": "Exclude Ties",
     "no_short": "Exclude Short",
+    "no_refusal": "Exclude Refusal",
 }
 cat_name_to_explanation = {
     "Overall": "Overall Questions",
@@ -332,6 +333,7 @@ cat_name_to_explanation = {
     "French": "French Prompts",
     "Exclude Ties": "Exclude Ties and Bothbad",
     "Exclude Short": "User Query >= 5 tokens",
+    "Exclude Refusal": 'Exclude model responses with refusal (e.g., "I cannot answer")',
 }
 
 
@@ -346,8 +348,8 @@ def build_leaderboard_tab(elo_results_file, leaderboard_table_file, show_plot=Fa
             elo_results = pickle.load(fin)
             if "full" in elo_results:
                 print("KEYS ", elo_results.keys())
-                for k in elo_results.keys():
-                    if k not in key_to_category_name:
+                for k in key_to_category_name.keys():
+                    if k not in elo_results:
                         continue
                     arena_dfs[key_to_category_name[k]] = elo_results[k]["leaderboard_table_df"]
                     category_elo_results[key_to_category_name[k]] = elo_results[k]
