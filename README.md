@@ -3,8 +3,7 @@ title: LMSys Chatbot Arena Leaderboard
 emoji: 🏆🤖
 colorFrom: indigo
 colorTo: green
-sdk: gradio
-sdk_version: 3.50.2
+sdk: static
 pinned: false
 license: apache-2.0
 tags:
