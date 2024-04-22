@@ -100,5 +100,5 @@ reka-flash-21b-20240226,Reka-Flash-21B,-,0.735,2023/11,Proprietary,Reka AI,https
 reka-flash-21b-20240226-online,Reka-Flash-21B-online,-,-,Online,Proprietary,Reka AI,https://docs.reka.ai/http-api.html#generation
 zephyr-orpo-141b-A35b-v0.1,Zephyr-ORPO-141b-A35b-v0.1,-,-,2024/4,Apache 2.0,HuggingFace,https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1
 mixtral-8x22b-instruct-v0.1,Mixtral-8x22b-Instruct-v0.1,-,0.778,2024/4,Apache 2.0,Mistral,https://mistral.ai/news/mixtral-8x22b/
-llama-3-70b-instruct,Llama-3-70b-Instruct,-,0.820,2023/12,Llama 3 Community,Meta,https://llama.meta.com/llama3/
-llama-3-8b-instruct,Llama-3-8b-Instruct,-,0.684,2023/3,Llama 3 Community,Meta,https://llama.meta.com/llama3/
+llama-3-70b-instruct,Meta-Llama-3-70b-Instruct,-,0.820,2023/12,Llama 3 Community,Meta,https://llama.meta.com/llama3/
+llama-3-8b-instruct,Meta-Llama-3-8b-Instruct,-,0.684,2023/3,Llama 3 Community,Meta,https://llama.meta.com/llama3/
