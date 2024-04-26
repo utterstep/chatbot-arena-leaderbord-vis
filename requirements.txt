@@ -1,1 +1,2 @@
 plotly
+git+https://github.com/lm-sys/FastChat.git@main
