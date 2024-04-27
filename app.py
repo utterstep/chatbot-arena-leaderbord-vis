@@ -52,21 +52,11 @@ if __name__ == "__main__":
     logger.info(f"args: {args}")
 
     elo_result_files = glob.glob("elo_results_*.pkl")
-    def extract_sort_key(filename):
-        match = re.search(r'(\d{8})-(\d+)', filename)
-        if match:
-            # Extract the date and identifier parts, converting them to integers for sorting
-            date_part = int(match.group(1))
-            id_part = int(match.group(2))
-            return (date_part, id_part)
-        else:
-            # Fallback sort key if the filename does not match the expected format
-            return (0, 0)
-    elo_result_files.sort(key=lambda x: extract_sort_key(x[12:-4]))
+    elo_result_files.sort(key=lambda x: int(x[12:-4]))
     elo_result_file = elo_result_files[-1]
 
     leaderboard_table_files = glob.glob("leaderboard_table_*.csv")
-    leaderboard_table_files.sort(key=lambda x: extract_sort_key(x[18:-4]))
+    leaderboard_table_files.sort(key=lambda x: int(x[18:-4]))
     leaderboard_table_file = leaderboard_table_files[-1]
 
     demo = build_demo(elo_result_file, leaderboard_table_file)
