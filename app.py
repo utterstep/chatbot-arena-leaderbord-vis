@@ -14,31 +14,17 @@ def build_demo(elo_results_file, leaderboard_table_file):
     from fastchat.serve.gradio_web_server import block_css
 
     text_size = gr.themes.sizes.text_lg
-
+    theme = gr.themes.Base(text_size=text_size)
+    theme.set(button_secondary_background_fill_hover="*primary_300", 
+              button_secondary_background_fill_hover_dark="*primary_700")
     with gr.Blocks(
-        title="Monitor",
-        theme=gr.themes.Base(text_size=text_size),
+        title="Chatbot Arena Leaderboard",
+        theme=theme,
         css=block_css,
     ) as demo:
-        with gr.Tabs() as tabs:
-            with gr.Tab("Leaderboard", id=0):
-                leader_components = build_leaderboard_tab(
-                    elo_results_file,
-                    leaderboard_table_file,
-                    show_plot=True,
-                    mirror=True
-                )
-
-            with gr.Tab("Basic Stats", id=1):
-                basic_components = build_basic_stats_tab()
-
-        url_params = gr.JSON(visible=False)
-        demo.load(
-            load_demo,
-            [url_params],
-            basic_components + leader_components,
+        leader_components = build_leaderboard_tab(
+            elo_results_file, leaderboard_table_file, show_plot=True, mirror=True
         )
-
     return demo
 
 if __name__ == "__main__":
