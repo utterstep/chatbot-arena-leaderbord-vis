@@ -105,6 +105,6 @@ llama-3-8b-instruct,Llama-3-8b-Instruct,-,0.684,2023/3,Llama 3 Community,Meta,ht
 gemini-1.5-pro-api-0409-preview,Gemini 1.5 Pro API-0409-Preview,-,0.819,2023/11,Proprietary,Google,https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/
 phi-3-mini-128k-instruct,Phi-3-Mini-128k-Instruct,-,0.681,2023/10,MIT,Microsoft,https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/
 snowflake-arctic-instruct,Snowflake Arctic Instruct,-,0.673,2024/4,Apache 2.0,Snowflake,https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/
-qwen-max-0428,qwen-max-0428,-,-,-,Proprietory,Alibaba,https://help.aliyun.com/zh/dashscope/developer-reference/api-details
-qwen1.5-110b-chat,qwen1.5-110b-chat,8.88,0.804,2024/4,Qianwen LICENSE,Alibaba,https://qwenlm.github.io/blog/qwen1.5-110b/
-reka-core-20240501,reka-core-20240501,-,0.832,-,Proprietary,Reka AI,https://www.reka.ai/news/reka-core-our-frontier-class-multimodal-language-model
+qwen-max-0428,Qwen-Max-0428,-,-,-,Proprietory,Alibaba,https://help.aliyun.com/zh/dashscope/developer-reference/api-details
+qwen1.5-110b-chat,Qwen1.5-110B-Chat,8.88,0.804,2024/4,Qianwen LICENSE,Alibaba,https://qwenlm.github.io/blog/qwen1.5-110b/
+reka-core-20240501,Reka-Core-20240501,-,0.832,-,Proprietary,Reka AI,https://www.reka.ai/news/reka-core-our-frontier-class-multimodal-language-model
