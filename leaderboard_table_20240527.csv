@@ -112,3 +112,6 @@ gpt-4o-2024-05-13,GPT-4o-2024-05-13,-,0.887,2023/10,Proprietary,OpenAI,https://o
 phi-3-mini-4k-instruct,Phi-3-Mini-4k-Instruct,-,0.688,2023/10,MIT,Microsoft,https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/
 yi-large-preview,Yi-Large-preview,-,-,Unknown,Proprietary,01 AI,https://www.01.ai/
 glm-4-0116,GLM-4-0116,-,-,Unknown,Proprietary,Zhipu AI,https://open.bigmodel.cn/
+gemini-advanced-0514,Gemini-Advanced-0514,-,-,Online,Proprietary,Google,https://gemini.google.com/advanced
+gemini-1.5-pro-api-0514,Gemini-1.5-Pro-API-0514,-,0.859,2023/11,Proprietary,Google,https://deepmind.google/technologies/gemini/pro
+gemini-1.5-flash-api-0514,Gemini-1.5-Flash-API-0514,-,0.789,2023/11,Proprietary,Google,https://deepmind.google/technologies/gemini/flash/
