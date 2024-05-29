@@ -102,7 +102,7 @@ zephyr-orpo-141b-A35b-v0.1,Zephyr-ORPO-141b-A35b-v0.1,-,-,2024/4,Apache 2.0,Hugg
 mixtral-8x22b-instruct-v0.1,Mixtral-8x22b-Instruct-v0.1,-,0.778,2024/4,Apache 2.0,Mistral,https://mistral.ai/news/mixtral-8x22b/
 llama-3-70b-instruct,Llama-3-70b-Instruct,-,0.820,2023/12,Llama 3 Community,Meta,https://llama.meta.com/llama3/
 llama-3-8b-instruct,Llama-3-8b-Instruct,-,0.684,2023/3,Llama 3 Community,Meta,https://llama.meta.com/llama3/
-gemini-1.5-pro-api-0409-preview,Gemini 1.5 Pro API-0409-Preview,-,0.819,2023/11,Proprietary,Google,https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/
+gemini-1.5-pro-api-0409-preview,Gemini-1.5-Pro-API-0409-Preview,-,0.819,2023/11,Proprietary,Google,https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/
 phi-3-mini-128k-instruct,Phi-3-Mini-128k-Instruct,-,0.681,2023/10,MIT,Microsoft,https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/
 snowflake-arctic-instruct,Snowflake Arctic Instruct,-,0.673,2024/4,Apache 2.0,Snowflake,https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/
 qwen-max-0428,Qwen-Max-0428,-,-,-,Proprietary,Alibaba,https://help.aliyun.com/zh/dashscope/developer-reference/api-details
