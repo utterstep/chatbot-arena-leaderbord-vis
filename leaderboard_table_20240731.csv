@@ -139,3 +139,6 @@ llama-3.1-8b-instruct,Meta-Llama-3.1-8b-Instruct,-,0.730,2023/12,Llama 3.1 Commu
 athene-70b-0725,Athene-70b,-,-,2024/7,CC-BY-NC-4.0,NexusFlow,https://huggingface.co/Nexusflow/Athene-70B
 internvl2-26b,InternVL2-26b,-,-,2024/7,MIT,OpenGVLab,https://internvl.github.io/blog/2024-07-02-InternVL-2.0/
 gemma-2-2b-it,Gemma-2-2B-it,-,0.513,2024/7,Gemma license,Google,https://ai.google.dev/gemma#introducing-gemma-2
+glm-4-air,GLM-4-AIR,-,-,Unknown,Proprietary,Zhipu AI,https://open.bigmodel.cn/
+snorkel-mistral-pairrm-dpo,Snorkel-Mistral-PairRM-DPO,-,-,2024/5,Apache 2.0,Snorkel AI,https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO
+mistral-large-2407,Mistral-Large-2407,-,-,2024/7,Proprietary,Mistral,https://mistral.ai/news/mistral-large-2407/
