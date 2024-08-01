@@ -41,7 +41,7 @@ def build_demo(elo_results_file, leaderboard_table_file):
         css=block_css,
     ) as demo:
         leader_components = build_leaderboard_tab(
-            elo_results_file, leaderboard_table_file, show_plot=True, mirror=True
+            elo_results_file, leaderboard_table_file, arena_hard_leaderboard=None, show_plot=True, mirror=True
         )
     return demo
 
