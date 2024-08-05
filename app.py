@@ -41,7 +41,7 @@ def build_demo(elo_results_file, leaderboard_table_file):
         css=block_css,
     ) as demo:
         leader_components = build_leaderboard_tab(
-            elo_results_file, leaderboard_table_file, show_plot=True, mirror=True
+            elo_results_file, leaderboard_table_file, arena_hard_file, show_plot=True, mirror=True
         )
     return demo
 
@@ -62,6 +62,10 @@ if __name__ == "__main__":
     leaderboard_table_files = glob.glob("leaderboard_table_*.csv")
     leaderboard_table_files.sort(key=lambda x: int(x[18:-4]))
     leaderboard_table_file = leaderboard_table_files[-1]
+    
+    arena_hard_files = glob.glob("arena_hard_auto_leaderboard_*.csv")
+    arena_hard_files.sort(key=lambda x: float(x[29:32]))
+    arena_hard_file = arena_hard_files[-1]
 
     demo = build_demo(elo_result_file, leaderboard_table_file)
     demo.launch(share=args.share, server_name=args.host, server_port=args.port)
