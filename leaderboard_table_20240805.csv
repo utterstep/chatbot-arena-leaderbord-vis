@@ -141,5 +141,5 @@ internvl2-26b,InternVL2-26b,-,-,2024/7,MIT,OpenGVLab,https://internvl.github.io/
 gemma-2-2b-it,Gemma-2-2B-it,-,0.513,2024/7,Gemma license,Google,https://ai.google.dev/gemma#introducing-gemma-2
 glm-4-air,GLM-4-AIR,-,-,Unknown,Proprietary,Zhipu AI,https://open.bigmodel.cn/
 snorkel-mistral-pairrm-dpo,Snorkel-Mistral-PairRM-DPO,-,-,2024/5,Apache 2.0,Snorkel AI,https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO
-mistral-large-2407,Mistral-Large-2407,-,-,2024/7,Proprietary,Mistral,https://mistral.ai/news/mistral-large-2407/
+mistral-large-2407,Mistral-Large-2407,-,-,2024/7,Mistral Research,Mistral,https://mistral.ai/news/mistral-large-2407/
 gemini-1.5-pro-exp-0801,Gemini-1.5-Pro-Exp-0801,-,-,-,Proprietary,Google,https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-pro-exp-0801
