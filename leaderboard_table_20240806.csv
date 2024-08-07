@@ -143,6 +143,6 @@ glm-4-air,GLM-4-AIR,-,-,Unknown,Proprietary,Zhipu AI,https://open.bigmodel.cn/
 snorkel-mistral-pairrm-dpo,Snorkel-Mistral-PairRM-DPO,-,-,2024/5,Apache 2.0,Snorkel AI,https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO
 mistral-large-2407,Mistral-Large-2407,-,-,2024/7,Mistral Research,Mistral,https://mistral.ai/news/mistral-large-2407/
 gemini-1.5-pro-exp-0801,Gemini-1.5-Pro-Exp-0801,-,-,2023/11,Proprietary,Google,https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-pro-exp-0801
-reka-core-20240722,reka-core-20240722,-,-,-,Proprietary,Reka AI,https://docs.reka.ai/available-models
-reka-flash-20240722,reka-flash-20240722,-,-,-,Proprietary,Reka AI,https://docs.reka.ai/available-models
-deepseek-coder-v2-0724,deepseek-coder-v2-0724,-,-,-,Proprietart,DeepSeek,https://platform.deepseek.com/api-docs/updates/#version-2024-07-24
+reka-core-20240722,Reka-Core-20240722,-,-,-,Proprietary,Reka AI,https://docs.reka.ai/available-models
+reka-flash-20240722,Reka-Flash-20240722,-,-,-,Proprietary,Reka AI,https://docs.reka.ai/available-models
+deepseek-coder-v2-0724,Deepseek-Coder-v2-0724,-,-,-,Proprietary,DeepSeek,https://platform.deepseek.com/api-docs/updates/#version-2024-07-24
