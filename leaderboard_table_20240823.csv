@@ -152,5 +152,5 @@ jamba-1.5-large,Jamba-1.5-Large,-,0.812,2024/3,Jamba Open,AI21 Labs,https://www.
 jamba-1.5-mini,Jamba-1.5-Mini,-,0.697,2024/3,Jamba Open,AI21 Labs,https://www.ai21.com/jamba
 minicpm-v-2_6,MiniCPM-v 2_6,-,-,2024/7,Apache 2.0,OpenBMB,https://huggingface.co/openbmb/MiniCPM-V-2_6
 phi-3-vision-128k-instruct,Phi-3-Vision-128k-Instruct,-,-,2024/3,MIT,Microsoft,https://huggingface.co/microsoft/Phi-3-vision-128k-instruct
-grok-2-2024-08-13,Grok-2-08-13,-,-,2024/8,Proprietary,xAI,https://x.ai/blog/grok-2
-grok-2-mini-2024-08-13,Grok-2-Mini-08-13,-,-,2024/8,Proprietary,xAI,https://x.ai/blog/grok-2
+grok-2-2024-08-13,Grok-2-08-13,-,-,2024/3,Proprietary,xAI,https://x.ai/blog/grok-2
+grok-2-mini-2024-08-13,Grok-2-Mini-08-13,-,-,2024/3,Proprietary,xAI,https://x.ai/blog/grok-2
