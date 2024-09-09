@@ -88,10 +88,10 @@ codellama-70b-instruct,CodeLlama-70B-instruct,-,-,2024/1,Llama 2 Community,Meta,
 olmo-7b-instruct,OLMo-7B-instruct,-,-,2024/2,Apache-2.0,Allen AI,https://huggingface.co/allenai/OLMo-7B-Instruct
 claude-3-haiku-20240307,Claude 3 Haiku,-,0.752,2023/8,Proprietary,Anthropic,https://www.anthropic.com/news/claude-3-family
 starling-lm-7b-beta,Starling-LM-7B-beta,8.12,-,2024/3,Apache-2.0,Nexusflow,https://huggingface.co/Nexusflow/Starling-LM-7B-beta
-command-r,Command R,-,-,2024/3,CC-BY-NC-4.0,Cohere,https://txt.cohere.com/command-r
+command-r,Command R (04-2024),-,-,2024/3,CC-BY-NC-4.0,Cohere,https://txt.cohere.com/command-r
 qwen1.5-14b-chat,Qwen1.5-14B-Chat,7.91,0.676,2024/2,Qianwen LICENSE,Alibaba,https://qwenlm.github.io/blog/qwen1.5/
 qwen1.5-32b-chat,Qwen1.5-32B-Chat,8.30,0.734,2024/2,Qianwen LICENSE,Alibaba,https://qwenlm.github.io/blog/qwen1.5-32b/
-command-r-plus,Command R+,-,-,2024/3,CC-BY-NC-4.0,Cohere,https://txt.cohere.com/command-r-plus-microsoft-azure/
+command-r-plus,Command R+ (04-2024),-,-,2024/3,CC-BY-NC-4.0,Cohere,https://txt.cohere.com/command-r-plus-microsoft-azure/
 gemma-1.1-7b-it,Gemma-1.1-7b-it,-,0.643,2024/2,Gemma license,Google,https://huggingface.co/google/gemma-1.1-7b-it
 dbrx-instruct-preview,DBRX-Instruct-Preview,-,0.737,2023/12,DBRX LICENSE,Databricks,https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm
 gpt-4-turbo-2024-04-09,GPT-4-Turbo-2024-04-09,-,-,2023/12,Proprietary,OpenAI,https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4
@@ -158,8 +158,8 @@ gemini-1.5-pro-exp-0827,Gemini-1.5-Pro-Exp-0827,-,-,2023/11,Proprietary,Google,h
 gemini-1.5-flash-exp-0827,Gemini-1.5-Flash-Exp-0827,-,-,2023/11,Proprietary,Google,https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-flash-exp-0827
 gemini-1.5-flash-8b-exp-0827,Gemini-1.5-Flash-8b-Exp-0827,-,-,2023/11,Proprietary,Google,https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-flash-8b-exp-0827
 internvl2-4b,InternVL2-4b,-,-,2024/7,MIT,OpenGVLab,https://internvl.github.io/blog/2024-07-02-InternVL-2.0/
-command-r-plus-08-2024,command-r-plus-08-2024,-,-,2024/8,Proprietary,Cohere,https://docs.cohere.com/docs/command-r-plus#model-details
-command-r-08-2024,command-r-08-2024,-,-,2024/8,Proprietary,Cohere,https://docs.cohere.com/docs/command-r-plus#model-details
+command-r-plus-08-2024,Command R+ (08-2024),-,-,2024/8,CC-BY-NC-4.0,Cohere,https://docs.cohere.com/docs/command-r-plus#model-details
+command-r-08-2024,Command R (08-2024),-,-,2024/8,CC-BY-NC-4.0,Cohere,https://docs.cohere.com/docs/command-r-plus#model-details
 gemma-2-9b-it-simpo,Gemma-2-9b-it-SimPO,-,-,2024/7,MIT,Princeton,https://huggingface.co/princeton-nlp/gemma-2-9b-it-SimPO
 yi-vision,Yi-Vision,-,-,2024/7,Proprietary,01 AI,https://platform.01.ai/docs#models-and-pricing
 llava-onevision-qwen2-72b-ov,LLaVA-OneVision-qwen2-72b-ov,-,-,2024/8,Apache 2.0,LLaVA,https://huggingface.co/lmms-lab/llava-onevision-qwen2-72b-ov
