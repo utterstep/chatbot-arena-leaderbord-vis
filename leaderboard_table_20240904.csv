@@ -162,5 +162,5 @@ command-r-plus-08-2024,Command R+ (08-2024),-,-,2024/8,CC-BY-NC-4.0,Cohere,https
 command-r-08-2024,Command R (08-2024),-,-,2024/8,CC-BY-NC-4.0,Cohere,https://docs.cohere.com/docs/command-r-plus#model-details
 gemma-2-9b-it-simpo,Gemma-2-9b-it-SimPO,-,-,2024/7,MIT,Princeton,https://huggingface.co/princeton-nlp/gemma-2-9b-it-SimPO
 yi-vision,Yi-Vision,-,-,2024/7,Proprietary,01 AI,https://platform.01.ai/docs#models-and-pricing
-llava-onevision-qwen2-72b-ov,LLaVA-OneVision-qwen2-72b-ov,-,-,2024/8,Apache 2.0,LLaVA,https://huggingface.co/lmms-lab/llava-onevision-qwen2-72b-ov
+llava-onevision-qwen2-72b-ov-sft,LLaVA-OneVision-qwen2-72b-ov-sft,-,-,2024/8,Apache 2.0,LLaVA,https://huggingface.co/lmms-lab/llava-onevision-qwen2-72b-ov
 phi-3.5-vision-instruct,Phi-3.5-vision-instruct,-,-,2024/8,MIT,Microsoft,https://huggingface.co/microsoft/Phi-3.5-vision-instruct
