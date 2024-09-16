@@ -149,6 +149,7 @@ reka-core-20240722,Reka-Core-20240722,-,-,-,Proprietary,Reka AI,https://docs.rek
 reka-flash-20240722,Reka-Flash-20240722,-,-,-,Proprietary,Reka AI,https://docs.reka.ai/available-models
 deepseek-coder-v2-0724,Deepseek-Coder-v2-0724,-,-,-,Proprietary,DeepSeek,https://platform.deepseek.com/api-docs/updates/#version-2024-07-24
 chatgpt-4o-latest,ChatGPT-4o-latest (2024-08-08),-,-,2023/10,Proprietary,OpenAI,https://x.com/OpenAIDevs/status/1823510395619000525
+chatgpt-4o-latest-20240808,ChatGPT-4o-latest (2024-08-08),-,-,2023/10,Proprietary,OpenAI,https://x.com/OpenAIDevs/status/1823510395619000525
 gpt-4o-2024-08-06,GPT-4o-2024-08-06,-,-,2023/10,Proprietary,OpenAI,https://platform.openai.com/docs/models/gpt-4o
 jamba-1.5-large,Jamba-1.5-Large,-,0.812,2024/3,Jamba Open,AI21 Labs,https://www.ai21.com/jamba
 jamba-1.5-mini,Jamba-1.5-Mini,-,0.697,2024/3,Jamba Open,AI21 Labs,https://www.ai21.com/jamba
@@ -170,3 +171,4 @@ deepseek-v2.5,Deepseek-v2.5,-,-,-,DeepSeek,DeepSeek,https://huggingface.co/deeps
 qwen-plus-0828,Qwen-Plus-0828,-,-,-,Proprietary,Alibaba,https://help.aliyun.com/zh/model-studio/getting-started/models
 qwen2-vl-7b-instruct,qwen2-vl-7b-instruct,-,-,-,Apache 2.0,Aliaba,https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct
 qwen-vl-max-0809,Qwen2-VL-72B,-,-,-,Proprietary,Alibaba,https://qwenlm.github.io/zh/blog/qwen2-vl/
+chatgpt-4o-latest-20240903,ChatGPT-4o-latest (2024-09-03),-,-,2023/10,Proprietary,OpenAI,https://help.openai.com/en/articles/9624314-model-release-notes
