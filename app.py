@@ -6,6 +6,7 @@ import glob
 import re
 import gradio as gr
 
+
 def load_demo(url_params, request: gr.Request):
     logger.info(f"load_demo. ip: {request.client.host}. params: {url_params}")
     return basic_component_values + leader_component_values
