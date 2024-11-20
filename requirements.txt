@@ -1,3 +1,9 @@
 plotly
 git+https://github.com/lm-sys/FastChat.git@main#egg=fschat[model_worker,webui]
+accelerate>=0.21
+peft
+sentencepiece
+torch
+transformers>=4.31.0
+protobuf
 scipy
