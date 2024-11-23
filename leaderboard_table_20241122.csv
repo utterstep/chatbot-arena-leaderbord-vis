@@ -207,5 +207,5 @@ granite-3.0-8b-instruct,Granite-3.0-8B-Instruct,-,-,-,Apache 2.0,IBM,https://hug
 granite-3.0-2b-instruct,Granite-3.0-2B-Instruct,-,-,-,Apache 2.0,IBM,https://huggingface.co/ibm-granite/granite-3.0-2b-instruct
 gemini-exp-1121,Gemini-Exp-1121,-,-,-,Proprietary,Google,https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-exp-1121
 step-1v-32k,Step-1V-32K,-,-,-,Proprietary,StepFun,https://platform.stepfun.com/docs/llm/vision
-athene-v2-chat,Athene-v2-Chat-72B,-,-,-,Apache 2.0,NexusFlow,https://huggingface.co/Nexusflow/Athene-V2-Chat
+athene-v2-chat,Athene-v2-Chat-72B,-,-,-,NexusFlow,NexusFlow,https://huggingface.co/Nexusflow/Athene-V2-Chat
 c4ai-aya-expanse-32b,Aya-Expanse-32B,-,-,-,CC-BY-NC-4.0,Cohere,https://huggingface.co/CohereForAI/aya-expanse-32b
