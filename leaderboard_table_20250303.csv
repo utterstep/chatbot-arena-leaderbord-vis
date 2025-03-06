@@ -240,7 +240,7 @@ deepseek-r1,DeepSeek-R1,-,-,-,MIT,DeepSeek,https://api-docs.deepseek.com/news/ne
 qwen2.5-max,Qwen2.5-Max,-,-,-,Proprietary,Alibaba,https://qwenlm.github.io/blog/qwen2.5-max/
 gemini-2.0-pro-exp-02-05,Gemini-2.0-Pro-Exp-02-05,-,-,-,Proprietary,Google,https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-pro-exp-02-05
 gemini-2.0-flash-001,Gemini-2.0-Flash-001,-,-,-,Proprietary,Google,https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001
-gemini-2.0-flash-lite-preview-02-05,Gemini-2.0-Flash-Lite-Preview-02-05,-,-,-,Proprietary,Google,https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-preview-02-05
+gemini-2.0-flash-lite-preview-02-05,Gemini-2.0-Flash-Lite,-,-,-,Proprietary,Google,https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-preview-02-05
 gemini-2.0-flash,Gemini-2.0-Flash-001,-,-,-,Proprietary,Google,https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001
 o3-mini,o3-mini,-,-,-,Proprietary,OpenAI,https://openai.com/index/openai-o3-mini/
 glm-4-plus-0111,GLM-4-Plus-0111,-,-,-,Proprietary,Zhipu,https://bigmodel.cn/dev/howuse/glm-4
