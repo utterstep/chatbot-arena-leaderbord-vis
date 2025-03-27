@@ -264,7 +264,7 @@ command-a-03-2025,Command A (03-2025),-,-,-,CC-BY-NC-4.0,Cohere,https://cohere.c
 llama-3.3-nemotron-49b-super-v1,Llama-3.3-Nemotron-Super-49B-v1,-,-,-,Nvidia,Nvidia,https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1
 claude-3-7-sonnet-20250219-thinking-32k,Claude 3.7 Sonnet (thinking-32k),-,-,-,Proprietary,Anthropic,https://www.anthropic.com/news/claude-3-7-sonnet
 gemini-2.5-pro-exp-03-25,Gemini-2.5-Pro-Exp-03-25,-,-,-,Proprietary,Google,http://aistudio.google.com/app/prompts/new_chat?model=gemini-2.5-pro-exp-03-25
-chatgpt-4o-latest-20250326,ChatGPT-4o-latest (2025-03-26),-,-,-,Proprietary,OpenAI,-
+chatgpt-4o-latest-20250326,ChatGPT-4o-latest (2025-03-26),-,-,-,Proprietary,OpenAI,https://x.com/OpenAI/status/1905331956856050135
 flux-1.1-pro,FLUX1.1 [pro],-,-,-,Proprietary,Black Forest Labs,https://replicate.com/black-forest-labs/flux-1.1-pro
 recraft-v3,Recraft V3,-,-,-,Proprietary,Recraft,https://www.recraft.ai/blog/recraft-introduces-a-revolutionary-ai-model-that-thinks-in-design-language
 photon,Luma Photon,-,-,-,Proprietary,Luma AI,https://replicate.com/luma/photon
