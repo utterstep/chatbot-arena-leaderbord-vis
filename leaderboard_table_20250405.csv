@@ -267,7 +267,7 @@ gemini-2.5-pro-exp-03-25,Gemini-2.5-Pro-Exp-03-25,-,-,-,Proprietary,Google,http:
 chatgpt-4o-latest-20250326,ChatGPT-4o-latest (2025-03-26),-,-,-,Proprietary,OpenAI,https://x.com/OpenAI/status/1905331956856050135
 deepseek-v3-0324,DeepSeek-V3-0324,-,-,-,MIT,DeepSeek,https://api-docs.deepseek.com/news/news250325
 c4ai-aya-vision-32b,Aya-Vision-32B,-,-,-,CC-BY-NC-4.0,Cohere,https://huggingface.co/CohereForAI/aya-vision-32b
-llama-4-maverick-03-26-experimental,Llama-4-Maverick-03-26-Experimental,-,-,-,Llama,Meta,https://ai.meta.com/blog/llama-4-multimodal-intelligence/
+llama-4-maverick-03-26-experimental,Llama-4-Maverick-03-26-Experimental,-,-,-,N/A,Meta,https://ai.meta.com/blog/llama-4-multimodal-intelligence/
 flux-1.1-pro,FLUX1.1 [pro],-,-,-,Proprietary,Black Forest Labs,https://replicate.com/black-forest-labs/flux-1.1-pro
 recraft-v3,Recraft V3,-,-,-,Proprietary,Recraft,https://www.recraft.ai/blog/recraft-introduces-a-revolutionary-ai-model-that-thinks-in-design-language
 photon,Luma Photon,-,-,-,Proprietary,Luma AI,https://replicate.com/luma/photon
