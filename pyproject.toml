@@ -1,0 +1,29 @@
+[project]
+name = "chatbot-arena-leaderboard"
+version = "0.1.0"
+description = "Visualization of chatbot arena leaderboard data"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "plotly<=5.24.1",
+    "fschat @ git+https://github.com/lm-sys/FastChat.git@main#egg=fschat[model_worker,webui]",
+    "accelerate>=0.21",
+    "peft",
+    "sentencepiece",
+    "torch",
+    "transformers>=4.31.0",
+    "protobuf",
+    "scipy",
+    # Additional dependencies for visualization
+    "pandas>=2.0.0",
+    "dash>=2.15.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.66.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true

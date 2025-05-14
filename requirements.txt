@@ -7,3 +7,5 @@ torch
 transformers>=4.31.0
 protobuf
 scipy
+pandas>=2.0.0
+numpy>=1.24.0

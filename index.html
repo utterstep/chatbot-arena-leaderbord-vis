@@ -1,12 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Chatbot Arena</title>
-		<link rel="stylesheet" href="style.css" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Chatbot Arena Max Elo History</title>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				margin: 20px;
+			}
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+			}
+			.controls {
+				width: 50%;
+				margin: 20px 0;
+			}
+			.chart-container {
+				position: relative;
+				height: 400px;
+				margin: 20px 0;
+			}
+			.top-models {
+				margin: 20px 0;
+			}
+			.model-card {
+				margin-bottom: 20px;
+				padding: 15px;
+				border: 1px solid #ddd;
+				border-radius: 4px;
+			}
+			select {
+				width: 100%;
+				padding: 8px;
+				margin-top: 5px;
+			}
+		</style>
 	</head>
 	<body>
-      <div>Please visit <a href="https://leaderboard.lmsys.org" target="_blank">leaderboard.lmsys.org</a>.</div>
-    </body>
+		<div class="container">
+			<h1>Chatbot Arena - Maximum Elo Rating History</h1>
+
+			<div class="controls">
+				<label for="category-select">Select Categories:</label>
+				<select id="category-select" multiple>
+					<!-- Options will be populated by JavaScript -->
+				</select>
+			</div>
+
+			<div class="chart-container">
+				<canvas id="eloChart"></canvas>
+			</div>
+
+			<div class="top-models">
+				<h3>Models with Highest Elo Rating</h3>
+				<div id="top-models-info"></div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
 </html>
